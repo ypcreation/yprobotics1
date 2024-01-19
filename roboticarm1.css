@@ -1,0 +1,190 @@
+*{
+    margin: 0px; padding: 0px;
+}
+
+body{
+    background-color: white;
+    width: 100%;
+    height: 3000px;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: orangered;
+}
+header{
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}
+
+ul{
+    position: relative;
+    float: right;
+    
+    
+}
+li{
+    display: inline;
+    padding: 25px;
+    font-size: 20px;
+    
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 35px;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: white;
+    
+    color: black;
+    transition: 0.6s ease;
+
+    
+}
+.two{
+    font-size: 30px;
+    font-weight: 1000;
+    position: relative;
+    top: 30px;
+    padding-left: 20px;
+}
+
+    
+    
+
+.fa-file-arrow-down{
+    display: flex;
+    color: black;
+    font-size: 50px;
+    float: right;
+    padding-right: 40px;
+    margin-top: 30px;
+    
+}
+.four{
+    width: 800px;
+    height: 500px;
+    box-sizing: border-box;
+    
+    border: 40PX solid grey ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    box-shadow: black;
+
+    
+}
+.six{
+    padding: 50px 100px;
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+}
+.seven{
+    font-size: 30PX;
+    font-weight: 1000;
+    padding-left: 50px;
+}
+
+.eight{
+    background-color:white;
+    width: 300px;
+    height: 350px;
+    margin-left: 80px;
+    position: absolute;
+    top: 1100px;
+
+}
+.nine{
+    width: 300px;
+    height: 300px;
+}
+.ten{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+
+
+.eleven{
+    
+    width: 300px;
+    height: 350px;
+    
+    top: 1100px;
+    margin-left: 600px;
+
+}
+.twel{
+    width: 300px;
+    height: 300px;
+}
+.thirteen{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.fourteen{
+    background-color:white;
+    width: 300px;
+    height: 350px;
+    margin-left: 1050px;
+    position: absolute;
+    top: 1100px;
+
+}
+
+.fiftheen{
+    width: 300px;
+    height: 350px;
+}
+.sixteen{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    text-align: center;
+}
+
+
+
+
+
+
+.seventeen{
+    background-color:white;
+    width: 100px;
+    height: 150px;
+    margin-left: 200px;
+    position: absolute;
+    top: 1600px;
+
+}
+
+.eighteen{
+    width: 150px;
+    height: 150px;
+}
+.nineteen{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    text-align: center;
+}

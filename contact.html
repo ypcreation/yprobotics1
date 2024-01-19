@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YP ROBOTICS</title>
+    <link rel="stylesheet" href="contact.css"/>
+</head>
+<body>
+   
+    <nav>
+        <header>YP ROBOTICS</header>
+        <ul class="one">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+  
+    
+
+
+<div class="two">
+    <form action="">
+        
+        <input type="text" id= "name" placeholder="YourName" required>
+        <input type="text" id= "email" placeholder="YourEmail" required>
+        <input type="text" id= "phone" placeholder="Phone" required>
+        <textarea type="text"id="meassage" rows="4" placeholder="How we can help you...?"></textarea>
+        <button type="submit"> send</button>
+    </form>    
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+    function sendemail(){
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "yuvrajparab151@gmail.com",
+            Password : "ABADDD374088E77003CB56958D47A4A9BCD6",
+            To : 'yprobotics@g',
+            From : "yuvrajparab151@gmail.com",
+            Subject: "This is the subject",
+            Body : "And this is the body"
+        }).then(
+          message => alert(message)
+        );
+    }
+    </script>
+    
+    
+</body>
+</html>
